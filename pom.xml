@@ -119,12 +119,10 @@
                     </annotationProcessorPaths>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>com.app.emsx.EmsxApplication</mainClass>
-                </configuration>
             </plugin>
         </plugins>
     </build>
